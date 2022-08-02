@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+                        <!-- Implement Flex Row for Cards Responsivneness -->
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -50,234 +50,230 @@
                 </div>
             </nav>
 
-            <section id="education" class="mt-5">
-                <div class="row">
-                    <h1 class="fw-bold">Education</h1>
-                    <div class="col-8">
+            <div class="container">
+                <section id="education" class="mt-2 mt-md-5 mt-lg-5">
+                    <div class="row">
+                        <h1 class="fw-bold">Education</h1>
+                        <div class="col-8">
 
-                        <div class="educ course">
-                            <div class="fw-bold">Bachelor of Science in Information Technology</div>
-                            <div class="fw-bold">Web and Mobile Applications</div>
-                            <div class="text-md">
-                                FEU Institute of Technology
-                            </div>
-                            <div class="text-md">2022</div>
-                        </div>
-
-                        <div class="educ course mt-3">
-                            <div class="fw-bold">Science, Technology, Engineering, and Mathematics (STEM)</div>
-                            <div class="text-md">
-                                Siena College of Taytay
-                            </div>
-                            <div class="text-md">2018</div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section id="organizations" class="mt-5">
-                <div class="row">
-                    <div class="col">
-
-                        <h1 class="fw-bold">Organization</h1>
-
-                        <div class="flex flex-col">
-                            <div class="mb-2">
-                                <div class="fw-bold text-md">
-                                    Developer Student Clubs Lead
-                                </div>
+                            <div class="educ course">
+                                <div class="fw-bold">Bachelor of Science in Information Technology</div>
+                                <div class="fw-bold">Web and Mobile Applications</div>
                                 <div class="text-md">
-                                    Google Developer Student Clubs
+                                    FEU Institute of Technology
                                 </div>
-                                <div class="text-md">
-                                    2020 - 2021
-                                </div>
+                                <div class="text-md">2022</div>
                             </div>
 
-                            <div class="mb-2">
-                                <div class="fw-bold text-md">
-                                    Vice President External
-                                </div>
+                            <div class="educ course mt-3">
+                                <div class="fw-bold">Science, Technology, Engineering, and Mathematics (STEM)</div>
                                 <div class="text-md">
-                                    Junior Philippine Computer Society FEU
-                                    Tech
+                                    Siena College of Taytay
                                 </div>
-                                <div class="text-md">
-                                    2020 - 2021
-                                </div>
-                            </div>
-
-                            <div class="mb-2">
-                                <div class="fw-bold text-md">
-                                    Director for Creatives
-                                </div>
-                                <div class="text-md">
-                                    Junior Philippine Computer Society FEU
-                                    Tech
-                                </div>
-                                <div class="text-md">
-                                    2019 - 2020
-                                </div>
-                            </div>
-
-                            <div class="mb-2">
-                                <div class="fw-bold text-md">
-                                    Junior Officer
-                                </div>
-                                <div class="text-md">
-                                    Junior Philippine Computer Society FEU
-                                    Tech
-                                </div>
-                                <div class="text-md">
-                                    2018 - 2019
-                                </div>
+                                <div class="text-md">2018</div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col">
-                        <h1 class="fw-bold">Awards</h1>
+                </section>
 
-                        <div class="flex flex-col">
-                            <div class="mb-2">
-                                <div class="text-md fw-bold">
-                                    Top Performing Student AY 2021-2022
+                <section id="organizations" class="mt-5">
+                    <div class="row d-flex flex-column flex-md-row flex-lg-row">
+                        <!-- Organizations -->
+                        <div class="col col-md-6 col-lg-6">
+                            <h1 class="fw-bold">Organizations</h1>
+
+                                <div class="mb-2">
+                                    <div class="fw-bold text-md">
+                                        Developer Student Clubs Lead
+                                    </div>
+                                    <div class="text-md">
+                                        Google Developer Student Clubs
+                                    </div>
+                                    <div class="text-md">
+                                        2020 - 2021
+                                    </div>
                                 </div>
-                                <div class="text-md">
-                                    Rank ? - ??? GWA
+
+                                <div class="mb-2">
+                                    <div class="fw-bold text-md">
+                                        Vice President External
+                                    </div>
+                                    <div class="text-md">
+                                        Junior Philippine Computer Society FEU
+                                        Tech
+                                    </div>
+                                    <div class="text-md">
+                                        2020 - 2021
+                                    </div>
                                 </div>
-                                <div class="text-md">
-                                    Web and Mobile Applications
+
+                                <div class="mb-2">
+                                    <div class="fw-bold text-md">
+                                        Director for Creatives
+                                    </div>
+                                    <div class="text-md">
+                                        Junior Philippine Computer Society FEU
+                                        Tech
+                                    </div>
+                                    <div class="text-md">
+                                        2019 - 2020
+                                    </div>
                                 </div>
+
+                                <div class="mb-2">
+                                    <div class="fw-bold text-md">
+                                        Junior Officer
+                                    </div>
+                                    <div class="text-md">
+                                        Junior Philippine Computer Society FEU
+                                        Tech
+                                    </div>
+                                    <div class="text-md">
+                                        2018 - 2019
+                                    </div>
+                                </div>
+                        </div>
+
+                        <!-- Awards -->
+                        <div class="col col-md-6 col-lg-6 mt-5 mt-md-0 mt-lg-0">
+                            <h1 class="fw-bold">Awards</h1>
+
+                            <div class="flex flex-col">
+                                <div class="mb-2">
+                                    <div class="text-md fw-bold">
+                                        Top Performing Student AY 2021-2022
+                                    </div>
+                                    <div class="text-md">
+                                        Rank ? - ??? GWA
+                                    </div>
+                                    <div class="text-md">
+                                        Web and Mobile Applications
+                                    </div>
+                                </div>
+
+                                <div class="mb-2">
+                                    <div class="text-md fw-bold">
+                                        Front-end Developer Intern of the Year 2022
+                                    </div>
+                                    <div class="text-md">
+                                        Internship 1 at IPSUM PH
+                                    </div>
+                                    <a href="" class="view-certificate">
+                                        <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                                    </a>
+                                </div>
+
+                                <div class="mb-2">
+                                    <div class="text-md fw-bold">
+                                        Top Performing Student AY 2020-2021
+                                    </div>
+                                    <div class="text-md">
+                                        Rank 15 - 3.71 GWA
+                                    </div>
+                                    <div class="text-md">
+                                        Web and Mobile Applications
+                                    </div>
+                                </div>
+
+                                <div class="mb-2">
+                                    <div class="text-md fw-bold">
+                                        Top Performing Student AY 2018-2019
+                                    </div>
+                                    <div class="text-md">
+                                        Rank 4 - 3.49 GWA
+                                    </div>
+                                    <div class="text-md">
+                                        Web and Mobile Applications
+                                    </div>
+                                </div>
+
                             </div>
+                        </div>
+                    </div>
+                </section>
 
-                            <div class="mb-2">
-                                <div class="text-md fw-bold">
-                                    Front-end Developer Intern of the Year 2022
-                                </div>
-                                <div class="text-md">
-                                    Internship 1 at IPSUM PH
-                                </div>
-                                <a href="" class="view-certificate">View Certificate <i
-                                        class="ms-2 fa-solid fa-arrow-right-long"></i></a>
+                <section id="certification" class="mt-5">
+                    <h1 class="fw-bold">Certifications</h1>
+
+                    <div class="row d-flex flex-column flex-md-row flex-lg-row">
+                        <div class="col card">
+                            <div class="ms-2 mt-2">
+                                IT Specialist - JavaScript
                             </div>
-
-                            <div class="mb-2">
-                                <div class="text-md fw-bold">
-                                    Top Performing Student AY 2020-2021
-                                </div>
-                                <div class="text-md">
-                                    Rank 15 - 3.71 GWA
-                                </div>
-                                <div class="text-md">
-                                    Web and Mobile Applications
-                                </div>
+                            <div class="ms-2 text-md gray">
+                                Certiport
                             </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
+                        </div>
 
-                            <div class="mb-2">
-                                <div class="text-md fw-bold">
-                                    Top Performing Student AY 2018-2019
-                                </div>
-                                <div class="text-md">
-                                    Rank 4 - 3.49 GWA
-                                </div>
-                                <div class="text-md">
-                                    Web and Mobile Applications
-                                </div>
+                        <div class="col card">
+                            <div class="ms-2 mt-2">
+                                CCNA: Switching, Routing, and Wireless Essentials
                             </div>
+                            <div class="ms-2 text-md gray">
+                                Cisco
+                            </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
+                        </div>
 
+                        <div class="col card">
+                            <div class="ms-2 mt-2 gray">
+                                DevNet Associate
+                            </div>
+                            <div class="ms-2 text-md gray">
+                                Cisco
+                            </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
                         </div>
                     </div>
-                </div>
-            </section>
 
-            <section id="certification" class="mt-5">
-                <h1 class="fw-bold">Certifications</h1>
+                    <div class="row d-flex flex-column flex-md-row flex-lg-row mt-md-3 mt-lg-3">
+                        <div class="col card">
+                            <div class="ms-2 mt-2">
+                                CCNA: Introduction to Networks
+                            </div>
+                            <div class="ms-2 text-md gray">
+                                Cisco
+                            </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
+                        </div>
 
-                <div class="row d-flex">
-                    <div class="col card">
-                        <div class="ms-2 mt-2">
-                            IT Specialist - JavaScript
+                        <div class="col card">
+                            <div class="ms-2 mt-2">
+                                Introduction to Programming Using Python
+                            </div>
+                            <div class="ms-2 text-md gray">
+                                Microsoft
+                            </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
                         </div>
-                        <div class="ms-2 text-md gray">
-                            Certiport
+
+                        <div class="col card">
+                            <div class="ms-2 mt-2">
+                                Database Fundamentals
+                            </div>
+                            <div class="ms-2 text-md gray">
+                                Microsoft
+                            </div>
+                            <a href="#" class="btn-certificate mt-auto">
+                                <div>View Certificate<i class="ms-2 fa-solid fa-arrow-right-long"></i></div>
+                            </a>
                         </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
+
                     </div>
-
-                    <div class="col card">
-                        <div class="ms-2 mt-2">
-                            CCNA: Switching, Routing, and Wireless Essentials
-                        </div>
-                        <div class="ms-2 text-md gray">
-                            Cisco
-                        </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-
-                    <div class="col card">
-                        <div class="ms-2 mt-2 gray">
-                            DevNet Associate
-                        </div>
-                        <div class="ms-2 text-md gray">
-                            Cisco
-                        </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row d-flex mt-3">
-                    <div class="col card">
-                        <div class="ms-2 mt-2">
-                            CCNA: Introduction to Networks
-                        </div>
-                        <div class="ms-2 text-md gray">
-                            Cisco
-                        </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-
-                    <div class="col card">
-                        <div class="ms-2 mt-2">
-                            Introduction to Programming Using Python
-                        </div>
-                        <div class="ms-2 text-md gray">
-                            Microsoft
-                        </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-
-                    <div class="col card">
-                        <div class="ms-2 mt-2">
-                            Database Fundamentals
-                        </div>
-                        <div class="ms-2 text-md gray">
-                            Microsoft
-                        </div>
-                        <a href="#" class="btn-certificate mt-auto">
-                            <span>View Certificate</span>
-                            <i class="ms-2 fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-
-                </div>
-            </section>
+                </section>
+            </div>
 
         </div>
     </main>

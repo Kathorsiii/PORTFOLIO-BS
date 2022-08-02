@@ -143,8 +143,9 @@ a {
   color: #000000;
   font-size: 14px;
 }
-.education .btn-certificate :hover {
+.education .btn-certificate:hover {
   text-decoration: underline;
+  transform: translateX(2);
 }
 
 .about .tech-bg {
@@ -159,6 +160,9 @@ a {
   height: 50px;
   padding: 10px;
 }
-.about a {
+.about .link {
   color: #000000;
+}
+.about .link:hover {
+  text-decoration: underline;
 }
