@@ -1,0 +1,36 @@
+@import "./mixins";
+
+.education {
+
+    .card {
+        padding: 10px;
+        margin-left: 15px;
+        width: 200px;
+        height: 140px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .view-certificate {
+        color: $gray;
+        font-size: $size-md;
+        
+        &:hover {
+            color: $black;
+            text-decoration: underline;
+        }
+    }
+
+    .btn-certificate {
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        color: $black;
+        font-size: $size-md;
+
+        :hover {
+            text-decoration: underline;
+        }
+
+    }
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "./variables";
+@import "./mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: $inter-font;
+    background: #f8f8f8;
+}
+
+.wrapper {
+    width: 768px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.main-page {
+    min-height: calc(100vh - 50px);
+}
+
+.parent-container {
+    padding: 30px 0px;
+}
+
+p {
+    font-size: $size-md;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-md {
+    font-size: $size-md;
+
+    &.gray {
+        color: $gray;
+    }
+}
+
+.blue-100 {
+    color: $blue-100;
+}
+
+.blue-75 {
+    color: $blue-75;
+}
+
+.blue-50 {
+    color: $blue-50;
+}
+
+.blue-25 {
+    color: $blue-25;
+}
+
+// .custom-btn {
+//    @include custom-btn;
+
+//     &:hover {
+//         background-color: $blue-75;
+//         color: $white;
+//         transition: ease-in 0.5s;
+//     }
+// }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.profile-photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+    img {
+        position: absolute;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        top:50%;
+        transform:translateY(-50%);
+    }
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    // height: 262px;
+    // border-radius: 10px;
+
+    // img {
+    //     border-radius: 10px;
+    // }
+
+    .card-details {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        padding: 25px;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 24px;
+        color: $white;
+
+        span {
+            background: $black;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    }
+
+    .card-text {
+        font-size: 18px;
+        color: $white;
+
+        span {
+            background: $black;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    }
+}
+
+.view-btn {
+    @include custom-btn;
+
+    &:hover {
+        transition: all ease-in 0.5s;
+        transform: translateX(5px);
+    }
+}

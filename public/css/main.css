@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background: #f8f8f8;
+}
+
+.wrapper {
+  width: 768px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.main-page {
+  min-height: calc(100vh - 50px);
+}
+
+.parent-container {
+  padding: 30px 0px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-md {
+  font-size: 14px;
+}
+.text-md.gray {
+  color: rgb(107, 114, 128);
+}
+
+.blue-100 {
+  color: #3056D3;
+}
+
+.blue-75 {
+  color: #5D79D7;
+}
+
+.blue-50 {
+  color: #8B9EDC;
+}
+
+.blue-25 {
+  color: #B7C0E0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.profile-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.profile-photo img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card {
+  position: relative;
+  width: 350px;
+}
+.card .card-details {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  padding: 25px;
+}
+.card .card-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.card .card-title span {
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.card .card-text {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.card .card-text span {
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.view-btn {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.view-btn:hover {
+  transition: all ease-in 0.5s;
+  transform: translateX(5px);
+}
+
+.education .card {
+  padding: 10px;
+  margin-left: 15px;
+  width: 200px;
+  height: 140px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.education .view-certificate {
+  color: rgb(107, 114, 128);
+  font-size: 14px;
+}
+.education .view-certificate:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.education .btn-certificate {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #000000;
+  font-size: 14px;
+}
+.education .btn-certificate :hover {
+  text-decoration: underline;
+}
+
+.about .tech-bg {
+  background: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.about .tech-bg .tech-logo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.about a {
+  color: #000000;
+}

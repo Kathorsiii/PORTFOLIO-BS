@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "sass --no-source-map scss/_main.scss public/css/main.css",
+    "watch": "sass --no-source-map scss/_main.scss public/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
