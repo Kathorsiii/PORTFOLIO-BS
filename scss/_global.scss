@@ -105,6 +105,7 @@ a {
 .card {
     position: relative;
     width: 350px;
+    border: none;
     // height: 262px;
     // border-radius: 10px;
 
@@ -116,7 +117,7 @@ a {
         position: absolute;
         bottom: 5px;
         left: 0;
-        padding: 25px;
+        padding: 10px 25px;
     }
 
     .card-title {

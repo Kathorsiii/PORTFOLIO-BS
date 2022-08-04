@@ -90,12 +90,13 @@ a {
 .card {
   position: relative;
   width: 350px;
+  border: none;
 }
 .card .card-details {
   position: absolute;
   bottom: 5px;
   left: 0;
-  padding: 25px;
+  padding: 10px 25px;
 }
 .card .card-title {
   font-weight: 700;
