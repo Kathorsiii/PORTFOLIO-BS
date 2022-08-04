@@ -44,6 +44,10 @@ a {
     }
 }
 
+.text-sm {
+    font-size: $size-sm;
+}
+
 .blue-100 {
     color: $blue-100;
 }
@@ -58,6 +62,10 @@ a {
 
 .blue-25 {
     color: $blue-25;
+}
+
+.gray {
+    color: $gray;
 }
 
 // .custom-btn {

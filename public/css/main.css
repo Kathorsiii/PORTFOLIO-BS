@@ -40,6 +40,10 @@ a {
   color: rgb(107, 114, 128);
 }
 
+.text-sm {
+  font-size: 12px;
+}
+
 .blue-100 {
   color: #3056D3;
 }
@@ -54,6 +58,10 @@ a {
 
 .blue-25 {
   color: #B7C0E0;
+}
+
+.gray {
+  color: rgb(107, 114, 128);
 }
 
 .navbar-toggler:focus,
@@ -165,4 +173,23 @@ a {
 }
 .about .link:hover {
   text-decoration: underline;
+}
+.about .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+}
+.about .testimonial-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 75px;
+  width: 75px;
+}
+.about .testimonial-photo img {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
 }
