@@ -20,6 +20,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
     <link rel="stylesheet" href="../public/css/main.css" />
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>About</title>
 </head>
 
@@ -391,22 +394,34 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="testimonial-photo mx-auto">
-                                                <img src=https://images.pexels.com/photos/6195663/pexels-photo-6195663.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260""
-                                                    alt="">
+                                                <img src="../public/img/Honey-Arriola.jfif" alt="">
                                             </div>
                                         </div>
                                         <div class="col-8 text-md">
                                             <div class="testimonial-text">
-                                                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
-                                                ullam excepturi quia quasi error facilis quo voluptatum velit inventore
-                                                suscipit? Facilis amet repudiandae vitae velit, quae exercitationem
-                                                accusamus placeat magni.
+                                                <span>I've been working with Katherine or Kath since she started in
+                                                    College
+                                                    and chose to take part in our organization as a Junior Officer. At
+                                                    first, she has shown willingness to learn and explore where she can
+                                                    contribute and grow at the same time. She has initiative and often
+                                                    shares her ideas which shows how bright she is.</span>
+                                                <span class="hidden-text">Within her first
+                                                    year in college, she became a committee in one of the committee
+                                                    groups I handled for a big inter-school event. She's a very quick
+                                                    learner and passionate. She's very open in taking recommendations,
+                                                    advice, and criticism about her work. A year after and she's been a
+                                                    core member of organizations and even become a leader of an
+                                                    internationally-known student club. I am very proud that someone
+                                                    whom I lead before went that far with flying colors. A good follower
+                                                    indeed becomes a good leader. I believe she will be good in whatever
+                                                    she does and will give her very best.</span>
+                                                <span class="read-more-trigger fw-bold">Read More</span>
                                             </div>
                                             <div class="testimonial-name fw-bold mt-3">
-                                                Person Name
+                                                Honey Arriola
                                             </div>
                                             <div class="testimonial-position fst-italic gray text-sm">
-                                                Founder at Founding
+                                                Associate Game Producer at Rutabaga Studio
                                             </div>
                                         </div>
                                     </div>
@@ -513,5 +528,21 @@
     </main>
 
 </body>
+
+<script>
+    $(document).ready(function () {
+        var hiddenInfo = $(".hidden-text");
+        var triggerReadMore = $(".read-more-trigger");
+
+        hiddenInfo.hide();
+
+        triggerReadMore.on("click", function () {
+            hiddenInfo.toggle();
+            if (triggerReadMore.text() == "Read More")
+                triggerReadMore.text("Read Less");
+            else triggerReadMore.text("Read More");
+        });
+    });
+</script>
 
 </html>
