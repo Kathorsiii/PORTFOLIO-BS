@@ -71,6 +71,10 @@ a {
   box-shadow: none;
 }
 
+.brand {
+  font-weight: 600;
+}
+
 .profile-photo {
   position: relative;
   overflow: hidden;
