@@ -138,6 +138,14 @@ a {
     }
 }
 
+.image-inner {
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
 .view-btn {
     @include custom-btn;
 

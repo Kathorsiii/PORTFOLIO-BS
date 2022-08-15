@@ -6,6 +6,7 @@
             max-height: 200px;
             object-fit: cover;
             object-position: top;
+            border-radius: 5px;
         }
 
         .card-title {
@@ -26,5 +27,24 @@
     // &:hover + .card-title {
     //     opacity: 1.0;
     // }
+
+    .project-title {
+        .number {
+            font-size: $size-md;
+            color: $gray;
+            font-weight: 700;
+        }
+
+        .title {
+            font-size: $size-xl;
+            font-weight: 700;
+        }
+    }
+
+    .link {
+        color: $black;
+        font-weight: 700;
+    }
+    
 
 }
