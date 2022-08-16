@@ -154,3 +154,22 @@ a {
         transform: translateX(5px);
     }
 }
+
+.contact-btn {
+    border: 1px solid $black;
+
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}
+
+.resume-btn {
+    background: $gray;
+    color: $white;
+
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}

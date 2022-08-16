@@ -140,6 +140,23 @@ a {
   transform: translateX(5px);
 }
 
+.contact-btn {
+  border: 1px solid #000000;
+}
+.contact-btn:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.resume-btn {
+  background: rgb(107, 114, 128);
+  color: #FFFFFF;
+}
+.resume-btn:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
 .education .card {
   padding: 10px;
   margin-left: 15px;
